@@ -1,0 +1,42 @@
+levels(as.factor(data_fifa$league))
+Argentinian Superliga
+Australian A-League
+Austrian Bundesliga
+Belgian First Division A
+Campeonato Brasileiro Série A
+Chilian Primera División
+Colombian Primera A
+Czech Liga
+Danish Superliga
+English Championship
+English League One
+English League Two
+English Premier League
+Finnish Veikkausliiga
+French Ligue 1
+French Ligue 2
+German 2. Bundesliga
+German 3. Liga
+German Bundesliga
+Greek Super League
+Holland Eredivisie
+Italian Serie A
+Italian Serie B
+Japanese J1 League
+Korean K League Classic
+Mexican Liga MX
+Norwegian Eliteserien
+Polish Ekstraklasa
+Portuguese Primeira Liga
+Rep. Ireland Premier Division
+Russian Premier League
+Saudi Professional League
+Scottish Premiership
+South African PSL
+Spanish Primera División
+Spanish Segunda División
+Swedish Allsvenskan
+Swiss Super League
+Turkish Süper Lig
+Ukrainian Premier League
+USA Major League Soccer
