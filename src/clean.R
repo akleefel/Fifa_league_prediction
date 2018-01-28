@@ -153,7 +153,7 @@ write_csv(data_fifa,"../results/fifa_clean.csv")
 
 
 #to remember which factor level is which league 
-target_reminder <- levels(as.factor(data_fifa$league))
+target_reminder <- as.data.frame(levels(as.factor(data_fifa$league)))
 
 #adjusting factors to numerical representation
 target <- data_fifa %>% mutate(league = as.numeric(as.factor(league))) %>% select(league)
@@ -166,12 +166,13 @@ features <- data_fifa %>%
   mutate(work_rate_att = as.numeric(work_rate_att),
          work_rate_def = as.numeric(work_rate_def),
          preferred_foot = as.numeric(preferred_foot)) %>% 
-  select(-league, -country)
+  select(-league, -country, -eur_value)
 
 write_csv(target, "../results/fifa_target.csv")
 
 write_csv(features, "../results/fifa_features.csv")
 
+write_csv(target_reminder, "../results/target_reminder.csv")
 
 
 

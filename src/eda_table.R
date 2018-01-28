@@ -13,6 +13,8 @@ data_fifa <- read_csv("../results/fifa_clean.csv")
 
 eda_table2 <- data_fifa %>% group_by(league) %>% 
   summarise(player_count = n(),
+            avg_age = mean(age),
+            avg_weight = mean(weight_kg),
             avg_passing = mean(pas),
             avg_pace = mean(pac), 
             count_diver = sum(diver_trait))
