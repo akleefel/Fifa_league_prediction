@@ -30,13 +30,14 @@ The following table displays a selection of the variables included in the data s
 Note that variables like `age`, and `weight` are numerical, while variables like `diver_trait` (summarized in 'count_diver') are binary variables. The dataset consists of ~80 numerical and ~80 binary variables.
 
 
+Cosidering the amount of features contained a single graph could not attempt to display all relationships among features in the different leagues. I have developed a shiny app (for our data-viz class) that lets the user discover the relationship of different player-attributes. Click [here](https://akleefel.shinyapps.io/fifa_viz_app/) to check out the app.
 
-The following image shows the differences in the `heigh` across the different leagues. We hope that these differences across all variables are enough to allow classification.
+As another example of displaying the differences between certain variables across different leagues I have plotted the `height` variable below. When running our model, we hope that these differences across all variables are enough to allow classification.
 
 ![](../results/height.png)
 
 
-Further, I have developed a shiny app that lets the user discover the relationship of different player-attributes. Click [here](https://akleefel.shinyapps.io/fifa_viz_app/) to check out the app.
+
 
 ## Approach
 
@@ -81,7 +82,7 @@ Again, I attempted to decrease the amount of features  **using an association ap
 
 #### Reflection
 
-Trying to classify football players into 10 different leagues based on their physical attributes and skill evaluation proved to be more difficult than expected. With a random assignment, we could have achieved 10% accuracy and the best algorithm used in this project barely reached the 30% mark.
+Trying to classify football players into 10 different leagues based on their physical attributes and skill evaluation proved to be more difficult than expected. With a random assignment, we could have achieved 10% accuracy and the best algorithm used in this project barely made it across the 30% mark.
 
 Further, I have to note that 5 of the 10 leagues included are second-tier leagues. Potentially, the model can differentiate between players that play at top-level and the players that play at the second level. Considering this would make our accuracy score even less impressive since a random guess of within-level classification would yield the correct results 20% of times.
 
