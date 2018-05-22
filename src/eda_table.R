@@ -23,6 +23,7 @@ eda_table2 <- data_fifa %>% group_by(league) %>%
 
 eda_table2 <- as.data.frame(eda_table2)
 
+
 png("../results/eda_table.png", height = 50*nrow(eda_table2), width = 150*ncol(eda_table2))
 grid.table(eda_table2,rows = NULL)
 dev.off()
