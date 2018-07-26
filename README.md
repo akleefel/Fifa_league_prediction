@@ -12,7 +12,7 @@ For simplicity, I focused on the first and second tear of Europe's largest footb
 **Find the more detailed report under this [link](documents/Report.md)**
 
 
-*Note:*  As soon as I find the time, I will re-run this analysis considering only players from top-tear leagues.
+*Note:* Likely part of the classification accuracy can be attributed to the different skill levels between top-tear and second-tear leagues. To remove this bias, I will re-run this analysis considering only players from equal-tear leagues as soon as I find time.
 
 ### Data Source
 
